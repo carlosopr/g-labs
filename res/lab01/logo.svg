@@ -29,24 +29,30 @@
      inkscape:window-x="175"
      inkscape:window-y="66"
      inkscape:window-maximized="0"
-     inkscape:current-layer="text1108" />
+     inkscape:current-layer="layer1" />
   <defs
      id="defs55732" />
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <text
-       xml:space="preserve"
-       style="font-weight:bold;font-size:13.584px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Bold';fill:#aa8800;stroke:#000000;stroke-width:0.842848;stroke-opacity:0.938567"
-       x="-0.5398792"
-       y="16.875822"
-       id="text344"><tspan
-         sodipodi:role="line"
-         id="tspan342"
-         style="fill:#aa8800;stroke:none;stroke-width:0.842848"
-         x="-0.5398792"
-         y="16.875822">IIO</tspan></text>
+    <g
+       aria-label="IIO"
+       id="text344"
+       style="font-weight:bold;font-size:13.584px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Bold';fill:#aa8800;stroke:#000000;stroke-width:0.842848;stroke-opacity:0.938567">
+      <path
+         d="M 0.39741677,7.1768463 V 16.875822 H 2.5301047 V 7.1768463 Z"
+         style="stroke:none"
+         id="path56284" />
+      <path
+         d="m 4.4046718,7.1768463 v 9.6989757 h 2.132688 V 7.1768463 Z"
+         style="stroke:none"
+         id="path56286" />
+      <path
+         d="m 10.123511,12.067086 q 0,-0.638448 0.13584,-1.236144 0.149424,-0.597696 0.461856,-1.0595517 0.312432,-0.47544 0.81504,-0.74712 0.502608,-0.285264 1.22256,-0.285264 0.719952,0 1.22256,0.285264 0.502608,0.27168 0.81504,0.74712 0.312432,0.4618557 0.448272,1.0595517 0.149424,0.597696 0.149424,1.236144 0,0.61128 -0.149424,1.195392 -0.13584,0.570528 -0.448272,1.032384 -0.312432,0.461856 -0.81504,0.74712 -0.502608,0.27168 -1.22256,0.27168 -0.719952,0 -1.22256,-0.27168 -0.502608,-0.285264 -0.81504,-0.74712 -0.312432,-0.461856 -0.461856,-1.032384 -0.13584,-0.584112 -0.13584,-1.195392 z m -2.1326881,0 q 0,1.059552 0.326016,1.983264 0.326016,0.910128 0.937296,1.589328 0.61128,0.6792 1.4942401,1.073136 0.896544,0.380352 2.010432,0.380352 1.127472,0 2.010432,-0.380352 0.88296,-0.393936 1.49424,-1.073136 0.61128,-0.6792 0.937296,-1.589328 0.326016,-0.923712 0.326016,-1.983264 0,-1.08672 -0.326016,-2.010432 -0.326016,-0.9372957 -0.937296,-1.6300797 -0.61128,-0.692784 -1.49424,-1.08672 -0.88296,-0.393936 -2.010432,-0.393936 -1.113888,0 -2.010432,0.393936 -0.8829601,0.393936 -1.4942401,1.08672 -0.61128,0.692784 -0.937296,1.6300797 -0.326016,0.923712 -0.326016,2.010432 z"
+         style="stroke:none"
+         id="path56288" />
+    </g>
     <g
        aria-label="Universidad Galileo
 Postgrado en Análisis y Predicción de Datos
