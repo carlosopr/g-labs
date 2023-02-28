@@ -1,3 +1,5 @@
 .DS_Store
 .idea/
 .vscode/
+project01/__pycache__
+project01/test.ipynb
