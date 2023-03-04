@@ -1,5 +1,4 @@
 import numpy as np
-import pandas as pd
 
 class PreprocessData:
     #def load_data(self):
@@ -52,8 +51,8 @@ class CustomModel:
             self.errors.append(error)
             
             # Printing the error every print_error_interval epochs
-            if epoch % print_error_interval == 0:
-                print(f"Epoch {epoch}, error: {error}")
+            if (epoch+1) % print_error_interval == 0:
+                print(f"Epoch {(epoch+1)}, error: {error}")
             
             # Computing the gradients
             gradients = -2 * np.dot(x.T, y - y_pred) / x.shape[0]
@@ -62,7 +61,7 @@ class CustomModel:
             beta -= alpha * gradients
             
             # Storing the model parameters
-            self.model[epoch] = beta.copy()
+            self.model[epoch+1] = beta.copy()
         
         return self.model, self.errors
 
