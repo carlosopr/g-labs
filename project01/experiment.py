@@ -1,4 +1,32 @@
 import numpy as np
+import pandas as pd
+
+class PreprocessData:
+    #def load_data(self):
+     #   pass
+
+    #def handle_missing_values(self):
+    #    pass
+
+    def split_data(self, X, y, split_percentage):
+        
+        # Concatenate X and y to shuffle the data
+        data = np.concatenate((X.reshape(-1, 1), y.reshape(-1, 1)), axis=1)
+        np.random.shuffle(data)
+        
+        # Calculate the split index based on the split percentage
+        split_index = int(len(data) * split_percentage)
+        
+        # Split data and extract the feature and label values
+        train_data = data[:split_index]
+        test_data = data[split_index:]
+        
+        X_train, y_train = train_data[:, 0], train_data[:, 1]
+        X_test, y_test = test_data[:, 0], test_data[:, 1]
+        
+        return X_train, y_train, X_test, y_test
+        
+
 
 class CustomModel:
     
@@ -28,7 +56,7 @@ class CustomModel:
                 print(f"Epoch {epoch}, error: {error}")
             
             # Computing the gradients
-            gradients = -2 * np.mean(x * (y - y_pred).reshape(-1,1), axis=0)
+            gradients = -2 * np.dot(x.T, y - y_pred) / x.shape[0]
             
             # Updating the parameters
             beta -= alpha * gradients
@@ -37,3 +65,6 @@ class CustomModel:
             self.model[epoch] = beta.copy()
         
         return self.model, self.errors
+
+
+# Define a plotter class
