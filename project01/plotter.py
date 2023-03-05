@@ -34,7 +34,7 @@ class DataPlotter:
         # Create a figure for the plot
         fig, ax = plt.subplots(figsize=(9, 6))
 
-        # Define a histogram with seaborn and graph the mean and median values
+        # Defines a histogram with seaborn and graph the mean and median values
         sns.histplot(data=dataframe[feature], ax=ax, kde=True, bins=100, edgecolor='none')
         ax.axvline(dataframe[feature].mean(), color='magenta', linestyle='dashed', linewidth=1)
         ax.axvline(dataframe[feature].median(), color='orange', linestyle='dashed', linewidth=1)
@@ -104,6 +104,23 @@ class DataPlotter:
 
         # Show the plot
         plt.show()
+
+
+    def plot_predictions(predictions, y, title):
+        # Plot predicted vs actual
+        plt.scatter(y, predictions, s=5, alpha=0.7)
+        plt.xlabel('Actual Labels')
+        plt.ylabel('Predicted Labels')
+        plt.title(title)
+        
+        # Overlay the regression line
+        z = np.polyfit(y, predictions, 1)
+        p = np.poly1d(z)
+        plt.plot(y,p(y), color='magenta')
+        
+        # Show the plot
+        plt.show()
+        
 
 
 

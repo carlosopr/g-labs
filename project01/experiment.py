@@ -1,6 +1,9 @@
 import numpy as np
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import mean_squared_error, r2_score
 
 class PreprocessData:
+    
     def load_data(self, path_file):
         
         # Binary file path is loaded
@@ -10,10 +13,7 @@ class PreprocessData:
         print('Data loaded!')
         
         return data
-        
-
-    #def handle_missing_values(self):
-    #    pass
+    
 
     def split_data(self, X, y, split_percentage):
         
@@ -72,6 +72,69 @@ class CustomModel:
             self.model[epoch+1] = beta.copy()
         
         return self.model, self.errors
+    
+
+    def train_with_skl(self, X, y):
+        
+        # Train the linear regression model on the input data
+        skl_model = LinearRegression().fit(X.reshape(-1, 1), y)
+        print("Trained!")
+
+        return skl_model
+    
+
+    def predict_from_custom_model(self, custom_model, x, y):
+        
+        # Add a column of ones to x for the intercept term to evaluate the custom model
+        X = np.c_[x, np.ones(x.shape[0])]
+        
+        # Get the parameters for the last iteration
+        last_iteration = len(custom_model)
+        beta0, beta1 = custom_model[last_iteration]
+
+        # Calculate the predicted values
+        predictions = np.dot(X, [beta0, beta1])
+
+        print("Metrics for the Custom Model:")
+        mse = mean_squared_error(y, predictions)
+        print("MSE:", mse)
+        rmse = np.sqrt(mse)
+        print("RMSE:", rmse)
+        r2 = r2_score(y, predictions)
+        print("R2:", r2)
+        print("=============================")
+        
+        return predictions
 
 
-# Define a plotter class
+    def predict_from_skl_model(self, skl_model, x, y):
+        
+        # Evaluate the skl model using the test data
+        predictions = skl_model.predict(x.reshape(-1, 1))
+
+        print("Metrics for the Scikit-learn Model:")
+        mse = mean_squared_error(y, predictions)
+        print("MSE:", mse)
+        rmse = np.sqrt(mse)
+        print("RMSE:", rmse)
+        r2 = r2_score(y, predictions)
+        print("R2:", r2)
+
+        return predictions
+    
+    def evaluate_models(self, custom_predictions, skl_predictions, y):
+
+        predictions_avg = np.mean([custom_predictions, skl_predictions], axis=0)
+
+        print("Metrics for the avg predictions:")
+        mse = mean_squared_error(y, predictions_avg)
+        print("MSE:", mse)
+        rmse = np.sqrt(mse)
+        print("RMSE:", rmse)
+        r2 = r2_score(y, predictions_avg)
+        print("R2:", r2)
+
+        return predictions_avg
+
+
+    
