@@ -1,8 +1,16 @@
 import numpy as np
 
 class PreprocessData:
-    #def load_data(self):
-     #   pass
+    def load_data(self, path_file):
+        
+        # Binary file path is loaded
+        data = np.load(path_file)
+
+        # Print confirmation
+        print('Data loaded!')
+        
+        return data
+        
 
     #def handle_missing_values(self):
     #    pass
