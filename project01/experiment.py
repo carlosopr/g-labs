@@ -30,6 +30,9 @@ class PreprocessData:
         
         X_train, y_train = train_data[:, 0], train_data[:, 1]
         X_test, y_test = test_data[:, 0], test_data[:, 1]
+
+        print(f"Total elements for X_train: {len(X_train)}, X_test: {len(X_test)}")
+        print(f"Total elements for y_train: {len(y_train)}, y_test: {len(y_test)}")
         
         return X_train, y_train, X_test, y_test
         
@@ -102,7 +105,6 @@ class CustomModel:
         print("RMSE:", rmse)
         r2 = r2_score(y, predictions)
         print("R2:", r2)
-        print("=============================")
         
         return predictions
 
