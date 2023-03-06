@@ -7,3 +7,4 @@ This repository contains a collection of labs and practices in data science usin
 |File |Description|
 |:----|:----|
 |lab01.ipynb|Jupyter Notebooks, Markdown y Git|
+|project01/house_prices.ipynb|Project I: Univariate Linear Regression Model|
