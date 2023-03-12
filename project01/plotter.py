@@ -88,19 +88,20 @@ class DataPlotter:
         keys = range(0, len(model_dict), n)
         models = [model_dict[k] for k in keys if k in model_dict]
         
-        # Plot the data
-        plt.scatter(X, y, s=5, alpha=0.7)
+        # Setting up the plot
+        fig, ax = plt.subplots(figsize=(9, 6))
+        ax.scatter(X, y, s=5, alpha=0.7)
         
         # Plot the predicted values for each model
         for model in models:
             X_aug = np.c_[X, np.ones(X.shape[0])]
             y_pred = np.dot(X_aug, model)
-            plt.plot(X, y_pred)
+            ax.plot(X, y_pred)
         
         # Setting up the plot
-        plt.xlabel("X")
-        plt.ylabel("y")
-        plt.title("Model prediction")
+        ax.set_xlabel("X")
+        ax.set_ylabel("y")
+        ax.set_title("Model Evolution")
 
         # Show the plot
         plt.show()

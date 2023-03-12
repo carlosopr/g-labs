@@ -35,7 +35,17 @@ class PreprocessData:
         print(f"Total elements for y_train: {len(y_train)}, y_test: {len(y_test)}")
         
         return X_train, y_train, X_test, y_test
-        
+
+
+    def scale_and_normalize(self, X):
+
+        # Min-Max scaling
+        X_scaled = (X - X.min(axis=0)) / (X.max(axis=0) - X.min(axis=0))
+
+        # Z-score normalization
+        X_normalized = (X_scaled - X_scaled.mean(axis=0)) / X_scaled.std(axis=0)
+
+        return X_normalized
 
 
 class CustomModel:
@@ -137,6 +147,3 @@ class CustomModel:
         print("R2:", r2)
 
         return predictions_avg
-
-
-    
