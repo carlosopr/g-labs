@@ -2,13 +2,13 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="850.46503"
-   height="584.10199"
-   viewBox="0 0 174.29266 119.70482"
+   width="206.019mm"
+   height="145.54401mm"
+   viewBox="0 0 171.68241 121.2867"
    version="1.1"
    id="svg5"
    inkscape:version="1.2.2 (b0a84865, 2022-12-01)"
-   sodipodi:docname="regression.svg"
+   sodipodi:docname="regression-2.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -22,11 +22,11 @@
      inkscape:pageopacity="0"
      inkscape:pagecheckerboard="false"
      inkscape:deskcolor="#505050"
-     inkscape:document-units="px"
+     inkscape:document-units="mm"
      showgrid="false"
      showguides="true"
      inkscape:zoom="1.1009789"
-     inkscape:cx="327.89003"
+     inkscape:cx="354.23022"
      inkscape:cy="277.48034"
      inkscape:window-width="1295"
      inkscape:window-height="809"
@@ -146,92 +146,91 @@
          d="M 25.233227,14.659302 V 103.57639 H 167.74088"
          id="path2000" />
       <g
-         id="g4236"
-         transform="matrix(1.3281936,0,0,1.3281936,-24.339437,-15.500397)"
-         style="fill:#ececec;stroke:#fcead7;stroke-width:0.59404;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+         id="g13308"
+         style="stroke-width:0.33833329;stroke-dasharray:0.33833328, 1.01499984;stroke:#b7b0ae;stroke-opacity:0.50183153;stroke-dashoffset:0">
         <path
-           style="fill:#ececec;fill-opacity:1;stroke:#fcead7;stroke-width:0.59404;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-           d="M 55.032469,57.195315 V 77.862532"
+           style="fill:#ececec;fill-opacity:1;stroke:#b7b0ae;stroke-width:0.33833329;stroke-linecap:round;stroke-dasharray:0.33833328, 1.01499984;stroke-dashoffset:0;stroke-opacity:0.50183153"
+           d="M 48.754336,60.466054 V 87.91612"
            id="path3999" />
         <path
-           style="font-weight:bold;font-size:2.82222px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Bold';text-align:center;text-anchor:middle;fill:#ececec;fill-opacity:1;stroke:#fcead7;stroke-width:0.59404;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-           d="M 101.41353,33.34259 V 49.634794"
+           style="font-weight:bold;font-size:2.82222px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Bold';text-align:center;text-anchor:middle;fill:#ececec;fill-opacity:1;stroke:#b7b0ae;stroke-width:0.33833329;stroke-linecap:round;stroke-dasharray:0.33833328, 1.01499984;stroke-dashoffset:0;stroke-opacity:0.50183153"
+           d="M 110.35736,28.785018 V 50.424219"
            id="path3999-2" />
         <path
-           style="font-weight:bold;font-size:2.82222px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Bold';text-align:center;text-anchor:middle;fill:#ececec;fill-opacity:1;stroke:#fcead7;stroke-width:0.59404;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-           d="M 118.23569,21.828716 V 39.580573"
+           style="font-weight:bold;font-size:2.82222px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Bold';text-align:center;text-anchor:middle;fill:#ececec;fill-opacity:1;stroke:#b7b0ae;stroke-width:0.33833329;stroke-linecap:round;stroke-dasharray:0.33833328, 1.01499984;stroke-dashoffset:0;stroke-opacity:0.50183153"
+           d="M 132.70045,13.492364 V 37.070267"
            id="path3999-7" />
         <path
-           style="font-weight:bold;font-size:2.82222px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Bold';text-align:center;text-anchor:middle;fill:#ececec;fill-opacity:1;stroke:#fcead7;stroke-width:0.59404;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-           d="m 75.939991,65.188823 v 9.421496"
+           style="font-weight:bold;font-size:2.82222px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Bold';text-align:center;text-anchor:middle;fill:#ececec;fill-opacity:1;stroke:#b7b0ae;stroke-width:0.33833329;stroke-linecap:round;stroke-dasharray:0.33833328, 1.01499984;stroke-dashoffset:0;stroke-opacity:0.50183153"
+           d="m 76.523573,71.082981 v 12.51357"
            id="path3999-1" />
         <path
-           style="font-weight:bold;font-size:2.82222px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Bold';text-align:center;text-anchor:middle;fill:#ececec;fill-opacity:1;stroke:#fcead7;stroke-width:0.59404;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-           d="M 95.405628,53.918285 V 64.695499"
+           style="font-weight:bold;font-size:2.82222px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Bold';text-align:center;text-anchor:middle;fill:#ececec;fill-opacity:1;stroke:#b7b0ae;stroke-width:0.33833329;stroke-linecap:round;stroke-dasharray:0.33833328, 1.01499984;stroke-dashoffset:0;stroke-opacity:0.50183153"
+           d="M 102.37771,56.113524 V 70.427751"
            id="path3999-5" />
         <path
-           style="font-weight:bold;font-size:2.82222px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Bold';text-align:center;text-anchor:middle;fill:#ececec;fill-opacity:1;stroke:#fcead7;stroke-width:0.59404;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-           d="M 115.88106,41.818944 V 62.778769"
+           style="font-weight:bold;font-size:2.82222px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Bold';text-align:center;text-anchor:middle;fill:#ececec;fill-opacity:1;stroke:#b7b0ae;stroke-width:0.33833329;stroke-linecap:round;stroke-dasharray:0.33833328, 1.01499984;stroke-dashoffset:0;stroke-opacity:0.50183153"
+           d="M 129.57305,40.043257 V 67.881962"
            id="path3999-18" />
         <path
-           style="font-weight:bold;font-size:2.82222px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Bold';text-align:center;text-anchor:middle;fill:#ececec;fill-opacity:1;stroke:#fcead7;stroke-width:0.59404;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-           d="m 121.3598,38.214788 v 6.638509"
+           style="font-weight:bold;font-size:2.82222px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Bold';text-align:center;text-anchor:middle;fill:#ececec;fill-opacity:1;stroke:#b7b0ae;stroke-width:0.33833329;stroke-linecap:round;stroke-dasharray:0.33833328, 1.01499984;stroke-dashoffset:0;stroke-opacity:0.50183153"
+           d="m 136.84987,35.25624 v 8.817225"
            id="path3999-0" />
         <path
-           style="font-weight:bold;font-size:2.82222px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Bold';text-align:center;text-anchor:middle;fill:#ececec;fill-opacity:1;stroke:#fcead7;stroke-width:0.59404;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-           d="M 73.056199,50.642477 V 66.739604"
+           style="font-weight:bold;font-size:2.82222px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Bold';text-align:center;text-anchor:middle;fill:#ececec;fill-opacity:1;stroke:#b7b0ae;stroke-width:0.33833329;stroke-linecap:round;stroke-dasharray:0.33833328, 1.01499984;stroke-dashoffset:0;stroke-opacity:0.50183153"
+           d="M 72.693339,51.762617 V 73.142718"
            id="path3999-09" />
         <path
-           style="font-weight:bold;font-size:2.82222px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Bold';text-align:center;text-anchor:middle;fill:#ececec;fill-opacity:1;stroke:#fcead7;stroke-width:0.59404;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-           d="M 88.436451,46.492216 V 57.820602"
+           style="font-weight:bold;font-size:2.82222px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Bold';text-align:center;text-anchor:middle;fill:#ececec;fill-opacity:1;stroke:#b7b0ae;stroke-width:0.33833329;stroke-linecap:round;stroke-dasharray:0.33833328, 1.01499984;stroke-dashoffset:0;stroke-opacity:0.50183153"
+           d="m 93.121291,46.250267 v 15.04629"
            id="path3999-56" />
         <path
-           style="font-weight:bold;font-size:2.82222px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Bold';text-align:center;text-anchor:middle;fill:#ececec;fill-opacity:1;stroke:#fcead7;stroke-width:0.59404;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-           d="m 48.543921,69.098892 v 12.39036"
+           style="font-weight:bold;font-size:2.82222px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Bold';text-align:center;text-anchor:middle;fill:#ececec;fill-opacity:1;stroke:#b7b0ae;stroke-width:0.33833329;stroke-linecap:round;stroke-dasharray:0.33833328, 1.01499984;stroke-dashoffset:0;stroke-opacity:0.50183153"
+           d="M 40.136288,76.276309 V 92.733106"
            id="path3999-28" />
         <path
-           style="font-weight:bold;font-size:2.82222px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Bold';text-align:center;text-anchor:middle;fill:#ececec;fill-opacity:1;stroke:#fcead7;stroke-width:0.59404;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-           d="m 66.567655,62.750517 v 7.691375"
+           style="font-weight:bold;font-size:2.82222px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Bold';text-align:center;text-anchor:middle;fill:#ececec;fill-opacity:1;stroke:#b7b0ae;stroke-width:0.33833329;stroke-linecap:round;stroke-dasharray:0.33833328, 1.01499984;stroke-dashoffset:0;stroke-opacity:0.50183153"
+           d="M 64.075296,67.844438 V 78.060073"
            id="path3999-59" />
         <path
-           style="font-weight:bold;font-size:2.82222px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Bold';text-align:center;text-anchor:middle;fill:#ececec;fill-opacity:1;stroke:#fcead7;stroke-width:0.59404;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-           d="M 59.598478,75.568259 V 87.500035"
+           style="font-weight:bold;font-size:2.82222px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Bold';text-align:center;text-anchor:middle;fill:#ececec;fill-opacity:1;stroke:#b7b0ae;stroke-width:0.33833329;stroke-linecap:round;stroke-dasharray:0.33833328, 1.01499984;stroke-dashoffset:0;stroke-opacity:0.50183153"
+           d="M 54.81888,84.868881 V 100.71659"
            id="path3999-4" />
         <path
-           style="font-weight:bold;font-size:2.82222px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Bold';text-align:center;text-anchor:middle;fill:#ececec;fill-opacity:1;stroke:#fcead7;stroke-width:0.59404;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-           d="m 45.90044,77.008848 v 6.330239"
+           style="font-weight:bold;font-size:2.82222px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Bold';text-align:center;text-anchor:middle;fill:#ececec;fill-opacity:1;stroke:#b7b0ae;stroke-width:0.33833329;stroke-linecap:round;stroke-dasharray:0.33833328, 1.01499984;stroke-dashoffset:0;stroke-opacity:0.50183153"
+           d="m 36.625234,86.782262 v 8.407783"
            id="path3999-3" />
         <path
-           style="font-weight:bold;font-size:2.82222px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Bold';text-align:center;text-anchor:middle;fill:#ececec;fill-opacity:1;stroke:#fcead7;stroke-width:0.59404;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-           d="m 80.746325,60.568007 v 1.513496"
+           style="font-weight:bold;font-size:2.82222px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Bold';text-align:center;text-anchor:middle;fill:#ececec;fill-opacity:1;stroke:#b7b0ae;stroke-width:0.33833329;stroke-linecap:round;stroke-dasharray:0.33833328, 1.01499984;stroke-dashoffset:0;stroke-opacity:0.50183153"
+           d="m 82.907315,64.945642 v 2.010216"
            id="path3999-9" />
         <path
-           style="font-weight:bold;font-size:2.82222px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Bold';text-align:center;text-anchor:middle;fill:#ececec;fill-opacity:1;stroke:#fcead7;stroke-width:0.59404;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-           d="m 74.97873,59.117893 v 6.247588"
+           style="font-weight:bold;font-size:2.82222px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Bold';text-align:center;text-anchor:middle;fill:#ececec;fill-opacity:1;stroke:#b7b0ae;stroke-width:0.33833329;stroke-linecap:round;stroke-dasharray:0.33833328, 1.01499984;stroke-dashoffset:0;stroke-opacity:0.50183153"
+           d="m 75.246832,63.01961 v 8.298007"
            id="path3999-36" />
         <path
-           style="font-weight:bold;font-size:2.82222px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Bold';text-align:center;text-anchor:middle;fill:#ececec;fill-opacity:1;stroke:#fcead7;stroke-width:0.59404;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-           d="m 61.040375,69.718104 v 7.395803"
+           style="font-weight:bold;font-size:2.82222px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Bold';text-align:center;text-anchor:middle;fill:#ececec;fill-opacity:1;stroke:#b7b0ae;stroke-width:0.33833329;stroke-linecap:round;stroke-dasharray:0.33833328, 1.01499984;stroke-dashoffset:0;stroke-opacity:0.50183153"
+           d="m 56.733998,77.098743 v 9.823058"
            id="path3999-30" />
         <path
-           style="font-weight:bold;font-size:2.82222px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Bold';text-align:center;text-anchor:middle;fill:#ececec;fill-opacity:1;stroke:#fcead7;stroke-width:0.59404;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-           d="m 50.947086,80.058086 v 4.964827"
+           style="font-weight:bold;font-size:2.82222px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Bold';text-align:center;text-anchor:middle;fill:#ececec;fill-opacity:1;stroke:#b7b0ae;stroke-width:0.33833329;stroke-linecap:round;stroke-dasharray:0.33833328, 1.01499984;stroke-dashoffset:0;stroke-opacity:0.50183153"
+           d="m 43.328157,91.714184 v 6.594252"
            id="path3999-8" />
         <path
-           style="font-weight:bold;font-size:2.82222px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Bold';text-align:center;text-anchor:middle;fill:#ececec;fill-opacity:1;stroke:#fcead7;stroke-width:0.59404;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-           d="m 86.273603,54.267348 v 4.43599"
+           style="font-weight:bold;font-size:2.82222px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Bold';text-align:center;text-anchor:middle;fill:#ececec;fill-opacity:1;stroke:#b7b0ae;stroke-width:0.33833329;stroke-linecap:round;stroke-dasharray:0.33833328, 1.01499984;stroke-dashoffset:0;stroke-opacity:0.50183153"
+           d="m 90.24861,56.577147 v 5.891854"
            id="path3999-6" />
         <path
-           style="font-weight:bold;font-size:2.82222px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Bold';text-align:center;text-anchor:middle;fill:#ececec;fill-opacity:1;stroke:#fcead7;stroke-width:0.59404;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-           d="m 102.61512,44.887319 v 4.452382"
+           style="font-weight:bold;font-size:2.82222px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Bold';text-align:center;text-anchor:middle;fill:#ececec;fill-opacity:1;stroke:#b7b0ae;stroke-width:0.33833329;stroke-linecap:round;stroke-dasharray:0.33833328, 1.01499984;stroke-dashoffset:0;stroke-opacity:0.50183153"
+           d="m 111.95331,44.118653 v 5.913625"
            id="path3999-46" />
         <path
-           style="font-weight:bold;font-size:2.82222px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Bold';text-align:center;text-anchor:middle;fill:#ececec;fill-opacity:1;stroke:#fcead7;stroke-width:0.59404;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-           d="m 103.57638,48.961212 v 4.452382"
+           style="font-weight:bold;font-size:2.82222px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Bold';text-align:center;text-anchor:middle;fill:#ececec;fill-opacity:1;stroke:#b7b0ae;stroke-width:0.33833329;stroke-linecap:round;stroke-dasharray:0.33833328, 1.01499984;stroke-dashoffset:0;stroke-opacity:0.50183153"
+           d="m 113.23005,49.529571 v 5.913626"
            id="path3999-46-4" />
         <path
-           style="font-weight:bold;font-size:2.82222px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Bold';text-align:center;text-anchor:middle;fill:#ececec;fill-opacity:1;stroke:#fcead7;stroke-width:0.59404;stroke-linecap:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-           d="m 107.18114,46.558047 v 4.452382"
+           style="font-weight:bold;font-size:2.82222px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Bold';text-align:center;text-anchor:middle;fill:#ececec;fill-opacity:1;stroke:#b7b0ae;stroke-width:0.33833329;stroke-linecap:round;stroke-dasharray:0.33833328, 1.01499984;stroke-dashoffset:0;stroke-opacity:0.50183153"
+           d="m 118.01787,46.337703 v 5.913625"
            id="path3999-46-3" />
       </g>
       <g
@@ -564,27 +563,7 @@
            id="path2400" />
       </g>
       <g
-         aria-label="100
-
-
-
-
-80
-
-
-
-
-60
-
-
-
-
-40
-
-
-
-
-20"
+         aria-label="100     80     60     40     20"
          id="text10134"
          style="font-weight:500;font-size:2.82223px;-inkscape-font-specification:'Helvetica Neue Medium';fill:#808080;stroke-width:0.789001">
         <path
