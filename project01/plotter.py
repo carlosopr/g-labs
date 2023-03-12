@@ -101,7 +101,7 @@ class DataPlotter:
         # Setting up the plot
         ax.set_xlabel("X")
         ax.set_ylabel("y")
-        ax.set_title("Model prediction")
+        ax.set_title("Model Evolution")
 
         # Show the plot
         plt.show()
