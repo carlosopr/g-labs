@@ -7,5 +7,6 @@ This repository contains a collection of labs and practices using Python. The go
 | File                         | Description                                   |
 |:-----------------------------|:----------------------------------------------|
 | lab01/lab01.ipynb            | Jupyter Notebooks, Markdown and Git           |
+| lab02/lab02.ipynb            | Syntax and Data Structure                     |
 | lab03/lab03.ipynb            | Numpy and Pandas                              |
 | project01/house_prices.ipynb | Project I: Univariate Linear Regression Model |
