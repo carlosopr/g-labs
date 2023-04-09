@@ -64,6 +64,15 @@ Para este proyecto se ha optado por una estructura de data warehouse ya que perm
 
 La tabla de hechos se centra en la información esencial relacionada con la transacción de alquiler, incluyendo información sobre el cliente, el vehículo, el tipo de combustible, la ubicación de recogida y entrega, y la fecha de inicio y finalización del alquiler. Esta estructura permite el análisis de diferentes aspectos de la transacción de alquiler, como la frecuencia de alquiler, los vehículos más populares y la ubicación de recogida y entrega más común.
 
+### Modelo de datos transaccional de la base de datos
+
+El modelo transaccional se presenta a continuación
+
+![Modelo transaccional](../res/project02/model.png)
+Figura 1. Modelo de datos transaccional
+
+### Análisis de dimensiones y construcción de tabal de hechos
+
 A continuación se presentan las dimensiones, seguida de la tabla de hechos para el dataset mostrado en el inciso anterior:
 
 ### Dimensión de tiempo
@@ -136,6 +145,10 @@ La tabla de hechos para este proyecto contiene los siguientes campos:
 * **start_date_key:** clave foránea que relaciona la tabla de hechos con la dimensión de tiempo, indicando la fecha y hora de inicio de la renta.
 * **end_date_key:** clave foránea que relaciona la tabla de hechos con la dimensión de tiempo, indicando la fecha y hora de fin de la renta.
 
+El modelo dimensional planteado se presenta en la Figura 2:
+
+![Modelo de dimensiones](../res/project02/model_dw.png)
+Figura 2. Modelo dimensional
 
 ## Procesamiento
 
@@ -158,6 +171,8 @@ De acuerdo a la información registrada, se tiene que las marcas Chevrolet, Hyun
 | Toyota | RAV4 | Economy SUV | 112 |
 | Volkswagen | Jetta | Standard | 110 |
 
+![Rentas por marca](../res/project02/g1.png)
+
 
 2. **¿Cuál es el promedio de kilometraje de los vehículos rentados por tipo de vehículo?**
 Según la información registrada, el tipo de vehículo **Economy** presenta el mayor kilometraje por tipo de vehículo en 2018. 
@@ -168,6 +183,8 @@ Según la información registrada, el tipo de vehículo **Economy** presenta el 
 | Economy SUV  | 12566.0   |
 | Intermediate | 40637.5   |
 | Standard     | 2032.0    |
+
+![Km por tipo de vehículo](../res/project02/g2.png)
 
 
 3. **¿Cuáles son los días de la semana con la mayor y menor demanda de alquiler de vehículos?**
@@ -183,6 +200,8 @@ Según la información suministrada, el día con mayor número de rentas es el L
 | Wednesday        |          98 |
 | Saturday         |         105 |
 | Monday           |         109 | 
+
+![Rentas por día de la semana](../res/project02/g3.png)
 
 4. **¿Cuál es el mes que registra mayor número de rentas?**
 Durante el 2018, el mes que presentó el mayor número de rentas fue julio. Se presenta la distribución a continuación.
@@ -202,6 +221,8 @@ Durante el 2018, el mes que presentó el mayor número de rentas fue julio. Se p
 | 2018-11    | 56     |
 | 2018-12    | 23     |
 
+![Rentas por mes](../res/project02/g4.png)
+
 5. **¿Cuáles son las 5 ciudades más populares para rentar vehículos?**
 De acuerdo a la información obtenida, el top 5 de ciudades para rentar vehículos son:
 
@@ -213,6 +234,7 @@ De acuerdo a la información obtenida, el top 5 de ciudades para rentar vehícul
 | Seattle    | 98    |
 | New York   | 89    |
 
+![Rentas por ciudad](../res/project02/g5.png)
 
 6. **¿Cuál es el porcentaje de rentas con opción de combustible en el total de rentas?**
 Para el caso de la información registrada en 2018, la opción Pre-pay option presenta mayor frecuencia en las rentas.
@@ -223,6 +245,7 @@ Para el caso de la información registrada en 2018, la opción Pre-pay option pr
 |     Self-Service     | 33.639144 |
 |        Market        | 32.262997 |
 
+![Promedio de rentas por opción de combustible](../res/project02/g6.png)
 
 7. **¿Cuánto tiempo en promedio duran las rentas de vehículos?**
 Según la data histórica de 2018, el promedio de días de renta de vehículos fue de **8 días**.
