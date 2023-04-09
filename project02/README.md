@@ -69,7 +69,7 @@ La tabla de hechos se centra en la información esencial relacionada con la tran
 El modelo transaccional se presenta a continuación
 
 ![Modelo transaccional](../res/project02/model.png)
-Figura 1. Modelo de datos transaccional
+</br>**Figura 1.** Modelo de datos transaccional
 
 ### Análisis de dimensiones y construcción de tabal de hechos
 
@@ -148,7 +148,7 @@ La tabla de hechos para este proyecto contiene los siguientes campos:
 El modelo dimensional planteado se presenta en la Figura 2:
 
 ![Modelo de dimensiones](../res/project02/model_dw.png)
-Figura 2. Modelo dimensional
+</br>**Figura 2.** Modelo dimensional
 
 ## Procesamiento
 
@@ -160,7 +160,7 @@ Se creo el script `project02.py` que se utiliza para cargar datos de diferentes 
 Derivado de la carga y transformaciones realizada, se presenta el análisis sobre la información obtenida con base en los siguientes cuestionamientos:
 
 1. **¿Cuántos vehículos de cada marca han sido rentados?**
-De acuerdo a la información registrada, se tiene que las marcas Chevrolet, Hyundai y Mitsubishi lideran el número de rentas en 2018. 
+</br>De acuerdo a la información registrada, se tiene que las marcas Chevrolet, Hyundai y Mitsubishi lideran el número de rentas en 2018. 
 
 | brand_vehicle | model_vehicle | type_vehicle | counts |
 | --- | --- | --- | ---:|
@@ -175,7 +175,7 @@ De acuerdo a la información registrada, se tiene que las marcas Chevrolet, Hyun
 
 
 2. **¿Cuál es el promedio de kilometraje de los vehículos rentados por tipo de vehículo?**
-Según la información registrada, el tipo de vehículo **Economy** presenta el mayor kilometraje por tipo de vehículo en 2018. 
+</br>Según la información registrada, el tipo de vehículo **Economy** presenta el mayor kilometraje por tipo de vehículo en 2018. 
 
 | type_vehicle | kilómetros |
 |--------------|-----------:|
@@ -188,7 +188,7 @@ Según la información registrada, el tipo de vehículo **Economy** presenta el 
 
 
 3. **¿Cuáles son los días de la semana con la mayor y menor demanda de alquiler de vehículos?**
-Según la información suministrada, el día con mayor número de rentas es el Lunes.
+</br>Según la información suministrada, el día con mayor número de rentas es el Lunes.
 
 
 | day_name_start   |   frequency |
@@ -204,7 +204,7 @@ Según la información suministrada, el día con mayor número de rentas es el L
 ![Rentas por día de la semana](../res/project02/g3.png)
 
 4. **¿Cuál es el mes que registra mayor número de rentas?**
-Durante el 2018, el mes que presentó el mayor número de rentas fue julio. Se presenta la distribución a continuación.
+</br>Durante el 2018, el mes que presentó el mayor número de rentas fue julio. Se presenta la distribución a continuación.
 
 | date_start | counts |
 |------------|-------:|
@@ -224,7 +224,7 @@ Durante el 2018, el mes que presentó el mayor número de rentas fue julio. Se p
 ![Rentas por mes](../res/project02/g4.png)
 
 5. **¿Cuáles son las 5 ciudades más populares para rentar vehículos?**
-De acuerdo a la información obtenida, el top 5 de ciudades para rentar vehículos son:
+</br>De acuerdo a la información obtenida, el top 5 de ciudades para rentar vehículos son:
 
 | city       | count |
 |------------|-------|
@@ -237,7 +237,7 @@ De acuerdo a la información obtenida, el top 5 de ciudades para rentar vehícul
 ![Rentas por ciudad](../res/project02/g5.png)
 
 6. **¿Cuál es el porcentaje de rentas con opción de combustible en el total de rentas?**
-Para el caso de la información registrada en 2018, la opción Pre-pay option presenta mayor frecuencia en las rentas.
+</br>Para el caso de la información registrada en 2018, la opción Pre-pay option presenta mayor frecuencia en las rentas.
 
 |     fuel_option    |   counts  |
 |-------------------|---------:|
@@ -248,5 +248,5 @@ Para el caso de la información registrada en 2018, la opción Pre-pay option pr
 ![Promedio de rentas por opción de combustible](../res/project02/g6.png)
 
 7. **¿Cuánto tiempo en promedio duran las rentas de vehículos?**
-Según la data histórica de 2018, el promedio de días de renta de vehículos fue de **8 días**.
+</br>Según la data histórica de 2018, el promedio de días de renta de vehículos fue de **8 días**.
 
